@@ -52,7 +52,7 @@ void DebugWindow::addImage(const std::string& title, const cl::Image2D& img, con
     rtw.text.setString(title);
     rtw.text.setPosition(offset.x, offset.y);
     rtw.text.setPosition(offset.x, offset.y - rtw.text.getCharacterSize() - 4.f);
-    rtw.text.setFillColor(sf::Color::White);
+    //rtw.text.setFillColor(sf::Color::White);
 
     _textureWindows.push_back(rtw);
 }
@@ -74,7 +74,7 @@ void DebugWindow::addValueField2D(const std::string& title, const ValueField2D& 
     rtw.text.setCharacterSize(12);
     rtw.text.setString(title);
     rtw.text.setPosition(offset.x, offset.y - rtw.text.getCharacterSize() - 4.f);
-    rtw.text.setFillColor(sf::Color::White);
+    //rtw.text.setFillColor(sf::Color::White);
 
     _textureWindows.push_back(rtw);
 }
